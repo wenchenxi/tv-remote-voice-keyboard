@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "bindings": {
+    "mic": { "keys": [], "kind": "voice" },
+    "power": { "keys": [], "kind": "escape" },
+    "up": { "keys": [], "kind": "arrow_up" },
+    "down": { "keys": [], "kind": "arrow_down" },
+    "left": { "keys": [], "kind": "arrow_left" },
+    "right": { "keys": [], "kind": "arrow_right" },
+    "ok": { "keys": [], "kind": "return" },
+    "back": { "keys": [], "kind": "delete_backward" },
+    "volume_up": { "keys": [], "kind": "system_volume_up" },
+    "volume_down": { "keys": [], "kind": "system_volume_down" },
+    "home": { "keys": [], "kind": "show_desktop" },
+    "menu": { "keys": ["ctrl", "k"], "kind": "key_combo" },
+    "tv": { "keys": [], "kind": "app_switcher" }
+  },
+  "secondary_bindings": {
+    "left": {
+      "long_press": { "keys": ["ctrl", "k"], "kind": "key_combo" }
+    },
+    "right": {
+      "long_press": { "keys": ["ctrl", "k"], "kind": "key_combo" }
+    },
+    "menu": {
+      "long_press": { "keys": ["ctrl", "shift", "f"], "kind": "key_combo" }
+    },
+    "back": {
+      "long_press": { "keys": ["escape"], "kind": "key_combo" }
+    }
+  },
+  "physical_bindings": {}
+}
