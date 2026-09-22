@@ -1,0 +1,8 @@
+# local backups made by apply-scancode-map.ps1
+keyboard-layout-backup-*.reg
+
+# windows / editor noise
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
